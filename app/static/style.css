@@ -35,3 +35,8 @@ h1, h2 {
     overflow: hidden;
     text-indent: 0.75rem;
 }
+
+.section-img img {
+    width: 75%;
+    border: 0.5em solid rgba(255, 255, 255, 0.5);
+}
