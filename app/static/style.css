@@ -12,15 +12,29 @@ h1, h2 {
     font-family: 'Roboto', 'Helvetica', 'Calibri', sans-serif;
 }
 
+header {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+nav {
+
+}
+
 .container {
     width: 100%;
     margin: 1em;
     background-color: #FFF;
 }
 
+section {
+    background-color: #ffd7be;
+    color: #484444;
+}
+
 .section-img {
     padding: 0.5em;
-    background-color: #ffd7be;
     width: 35%;
 }
 
