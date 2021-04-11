@@ -80,6 +80,37 @@ header .logo a {
     color: black;
 }
 
+header .mobile {
+    display: none;
+}
+
+/* Responsive Rules */
+
+@media screen and (max-width: 928px) {
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop {
+        display: none;
+    }
+
+    header {
+        height: 330px;
+    }
+
+    .navbar { padding: 0; }
+
+    header .logo {
+        top: 5px;
+    }
+}
+
+
+@media screen and (max-width: 698px){
+    /* fix header, remove logo */
+}
+
 /* Main page styling */
 
 section.feature-box {
@@ -112,6 +143,8 @@ section.feature-box {
 .product figure {
     padding: 0.5em;
     margin: 0.5em;
+    display: flex;
+    flex-direction: column;
 }
 
 .products-list .product .product-name {
@@ -121,9 +154,24 @@ section.feature-box {
     text-transform: uppercase;
 }
 
-.products-list div img {
+.products-list .product img {
     width: 175px;
+    margin: 0 auto;
     border: 1px solid rgba(255, 215, 190, 0.5);
+}
+
+@media screen and (max-width: 928px) {
+    .products-list .product .product-name {
+        font-size: 1rem;
+    }
+
+    .products-list .product img {
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 668px){
+    /* fix products display with JS? */
 }
 
 /* Image box section styling */
