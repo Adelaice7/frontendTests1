@@ -20,6 +20,16 @@ h2 {
     font-size: 1.25em;
 }
 
+a {
+    text-decoration: none;
+    color: darkred;
+    font-size: 1em;
+}
+
+a:hover {
+    color: #ca0000;
+}
+
 /* Header styling */
 
 header {
@@ -184,12 +194,20 @@ section.feature-box {
     margin: 0 auto;
 }
 
+/* Sidebar styling */
+
+aside {
+    width: 25%;
+    background-color: #484444;
+    height: 200px;
+}
+
 /* Footer styling */
 
 footer {
     background-color: #000000;
     padding: 1em;
-    color: gray;
+    color: #9b9b9b;
     text-align: center;
     font-size: 12px;
 }
