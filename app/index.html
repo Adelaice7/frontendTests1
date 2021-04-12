@@ -62,18 +62,35 @@
         </div>
     </section>
     <section class="feature-box form-box">
+        <h2>Example Form</h2>
         <form id="mainForm" name="mainForm" method="post" action="#">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Name"/>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="E-mail address"/>
+            <h3>This is MainForm</h3>
+            <div class="form-part">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="input-field" name="name" placeholder="Name"/>
+            </div>
+            <div class="form-part">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="input-field" name="email" placeholder="E-mail address"/>
+            </div>
 
-            <input type="radio" id="female" name="sex" value="female"/>
-            <label for="female">Female</label>
-            <input type="radio" id="male" name="sex" value="male"/>
-            <label for="male">Male</label>
+            <div class="form-part form-pt-radio">
+                <label class="radio" for="female">
+                    <input type="radio" class="input-radio" id="female" name="sex" value="female"/>
+                    <span class="radio-control"><!-- empty --></span>
+                    <span class="radio-label">Female</span>
+                </label>
 
-            <button type="submit" id="submit" name="submit">Submit</button>
+                <label class="radio" for="male">
+                    <input type="radio" class="input-radio" id="male" name="sex" value="male"/>
+                    <span class="radio-control"><!-- empty --></span>
+                    <span class="radio-label">Male</span>
+                </label>
+            </div>
+
+            <div class="form-part form-pt-btn">
+                <button type="submit" id="submit" name="submit">Submit</button>
+            </div>
         </form>
     </section>
     <section class="feature-box img-box">
