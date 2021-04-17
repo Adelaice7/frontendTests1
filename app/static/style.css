@@ -247,6 +247,11 @@ section.feature-box {
 
 /* Image box section styling */
 
+.feature-box.img-box {
+    display: flex;
+    flex-direction: column;
+}
+
 .feature-box.img-box h2 {
     text-transform: capitalize;
     font-size: 1.2rem;
